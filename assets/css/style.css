@@ -243,6 +243,11 @@ textarea{
 	display:block;
 }
 
+.listadesplegableinterna {
+  display: block; 
+  margin: auto;
+}
+
 .urlinterna {
   text-align: center;
 }
@@ -252,6 +257,6 @@ textarea{
 }
 
 .mapa { 
-  display:block; 
-  margin:auto"
+  display: block; 
+  margin: auto;
 }
