@@ -243,6 +243,10 @@ textarea{
 	display:block;
 }
 
+.urlinterna {
+  text-align: center;
+}
+
 .urlexterna {
   text-align: center;
 }
