@@ -243,19 +243,68 @@ textarea{
 	display:block;
 }
 
-.listadesplegableinterna {
-  margin: 100px;
+#lista1 {
+  display: block;
+  margin: auto;
+  width: auto;
 }
 
-.urlinterna {
+#Checkboxes {
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
+#Checkboxes h1 {
   text-align: center;
 }
 
-.urlexterna {
+#lista1 h1 {
   text-align: center;
 }
 
-.mapa { 
+#listadesplegableinterna {
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+
+#listadesplegableinterna h1 {
+  text-align: center;
+}
+
+#urllocal img {
   display: block; 
   margin: auto;
+  width: 600px;
+}
+
+#urllocal h1 {
+  text-align: center;
+}
+
+#urlexterna h1 {
+  text-align: center;
+}
+
+#urlexterna img { 
+  display: block; 
+  margin: auto;
+  width: 600px;
+}
+
+#video { 
+  display: block; 
+  margin: auto;
+  width: 600px;
+}
+
+#video h1 {
+  text-align: center;
+}
+
+#mapa { 
+  display: block; 
+  margin: auto;
+  width: 600px;
 }

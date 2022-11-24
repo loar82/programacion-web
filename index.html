@@ -17,7 +17,7 @@
 
 <body>
     <div>
-        <audio controls  src="./assets/audio/De Musica Ligera.mp3" type="audio/mp3" autoplay></audio>
+        <!--<audio controls  src="./assets/audio/De Musica Ligera.mp3" type="audio/mp3" autoplay></audio>-->
     </div>
     
     <header>
@@ -232,8 +232,9 @@
             <span><input type="submit" value="Enviar datos"></span>
         </form>
     </div>
-    <div>
-        <h1 style="text-align: center;">Formulario Checkboxes</h1>        
+
+    <div id="Checkboxes">
+        <h1 >Formulario Checkboxes</h1>        
         <form action="/action_page.php">
             <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
             <label for="vehicle1">Bicicleta</label><br>
@@ -244,48 +245,62 @@
             <input type="submit" value="Enviar">
         </form>
     </div>
-    <div style="display:flex;">
-        <h1 style="text-align: center;">listas de opciones</h1>
+
+    <div id="lista1">
+        <h1>listas de opciones</h1>
         <select name="transporte">
             <option>Coche</option>
             <option>Avión</option>
             <option>Tren</option>
         </select>
     </div>
-    <div class="listadesplegableinterna">
-        <h1>listas de opciones</h1>
+
+    <div id="listadesplegableinterna">
+        <h1>Lista de opciones</h1>
         <select name="transporte" size="2">
             <option>Coche</option>
             <option>Avión</option>
             <option>Tren</option>
         </select>
     </div>
-    <div>
-        <h1 class="urlinterna">Imagen con URL local</h1>
-        <img class="gato" src="./assets/images/fondo1.jpg" style="width: 600px; display:block; margin:auto" alt="el puente del gato"  title="El puente del gato">
+
+    <div id="urllocal">
+        <h1>Imagen con URL local</h1>
+        <img src="./assets/images/fondo1.jpg" 
+        alt="el puente del gato"  
+        title="El puente del gato">
     </div>
 
-    <div>
-        <h1 class="urlexterna">Imagen con URL externa</h1>
-        <img class="gato" src="https://www.turismodeobservacion.com/media/fotografias/el-puente-del-gato-20562-xl.jpg" style="width: 600px; display:block; margin:auto"
+    <div id="urlexterna">
+        <h1>Imagen con URL externa</h1>
+        <img class="gato" src="https://www.turismodeobservacion.com/media/fotografias/el-puente-del-gato-20562-xl.jpg"
             alt="https://www.turismodeobservacion.com/foto/el-puente-del-gato/20562/" title="El puente del gato">
     </div>
-
-    <div  style="width: 600px; display:block; margin:auto">
-        <video width="600" height="400" controls poster="vistaprevia.jpg">
-            <source src="./assets/video/publicidad.mp4" type="video/webm">
-            <source src="ejemplo.ogg" type="video/ogg">
-            <source src="./assets/video/publicidad.mp4" type="video/mp4">
-        </video>
+    
+    <div id="video">
+        <h1>Nuestros videos</h1>
+        <video src="./assets/video/publicidad.mp4" 
+        poster="./assets/images/logo_150_150.png" 
+        width="600" height="400" 
+        preload=""
+        controls 
+        loop></video>
+        <p>Conoce nuestras colaboraciónes</p>
     </div>
 
-    <div class="mapa">
+    <div id="mapa">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15012.09401613375!2d-98.0307417!3d19.8389584!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb2a24d2bd275c68!2sRuta%20M%C3%A1gica%20Chignahuapan!5e0!3m2!1ses-419!2smx!4v1668477192507!5m2!1ses-419!2smx"
             width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </div>
+
+    <footer>
+        <div>
+            <p>Este es el footer</p>
+        </div>
+    </footer>
 
 </body>
 </html>
