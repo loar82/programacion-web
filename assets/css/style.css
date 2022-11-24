@@ -246,7 +246,37 @@ textarea{
 #lista1 {
   display: block;
   margin: auto;
-  width: auto;
+  width: 600px;
+}
+
+#tabla2 {
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
+#tabla2 {
+  text-align: center;
+}
+
+#formularioejemplo {
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
+#formularioejemplo {
+  text-align: center;
+}
+
+#radiobutton {
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
+#radiobutton {
+  text-align: center;
 }
 
 #Checkboxes {
